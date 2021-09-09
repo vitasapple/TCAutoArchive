@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18617A5226E73BE2007343D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18617A5126E73BE2007343D6 /* AppDelegate.swift */; };
+		18617A5426E73BE6007343D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18617A5326E73BE6007343D6 /* Assets.xcassets */; };
+		18617A5726E73BE6007343D6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18617A5526E73BE6007343D6 /* MainMenu.xib */; };
+		18617A6426E73C5B007343D6 /* TCBaseWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18617A6226E73C5B007343D6 /* TCBaseWindow.swift */; };
+		18617A6526E73C5B007343D6 /* TCBaseWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18617A6326E73C5B007343D6 /* TCBaseWindow.xib */; };
+		18617A6B26E73CA5007343D6 /* TCMainViewCtr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18617A6926E73CA5007343D6 /* TCMainViewCtr.swift */; };
+		18617A6C26E73CA5007343D6 /* TCMainViewCtr.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18617A6A26E73CA5007343D6 /* TCMainViewCtr.xib */; };
+		18617A7426E74B8A007343D6 /* TCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18617A7326E74B8A007343D6 /* TCExtensions.swift */; };
+		18E6AA5C26E8B6D700BDF31D /* TCIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6AA5A26E8B6D700BDF31D /* TCIndicatorView.swift */; };
+		18E6AA5D26E8B6D700BDF31D /* TCIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E6AA5B26E8B6D700BDF31D /* TCIndicatorView.xib */; };
+		7AB4F10773765090A61372CA /* Pods_TCAutoArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE30A53FB781190BD224A07B /* Pods_TCAutoArchive.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18617A4E26E73BE2007343D6 /* TCAutoArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAutoArchive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18617A5126E73BE2007343D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18617A5326E73BE6007343D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18617A5626E73BE6007343D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		18617A5826E73BE6007343D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18617A5926E73BE6007343D6 /* TCAutoArchive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCAutoArchive.entitlements; sourceTree = "<group>"; };
+		18617A6226E73C5B007343D6 /* TCBaseWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCBaseWindow.swift; sourceTree = "<group>"; };
+		18617A6326E73C5B007343D6 /* TCBaseWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TCBaseWindow.xib; sourceTree = "<group>"; };
+		18617A6926E73CA5007343D6 /* TCMainViewCtr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCMainViewCtr.swift; sourceTree = "<group>"; };
+		18617A6A26E73CA5007343D6 /* TCMainViewCtr.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TCMainViewCtr.xib; sourceTree = "<group>"; };
+		18617A7326E74B8A007343D6 /* TCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCExtensions.swift; sourceTree = "<group>"; };
+		18E6AA4C26E8B1A200BDF31D /* TCAutoArchive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCAutoArchive-Bridging-Header.h"; sourceTree = "<group>"; };
+		18E6AA5A26E8B6D700BDF31D /* TCIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCIndicatorView.swift; sourceTree = "<group>"; };
+		18E6AA5B26E8B6D700BDF31D /* TCIndicatorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TCIndicatorView.xib; sourceTree = "<group>"; };
+		6B0A1E8B07746CFF904ECD9B /* Pods-TCAutoArchive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAutoArchive.debug.xcconfig"; path = "Target Support Files/Pods-TCAutoArchive/Pods-TCAutoArchive.debug.xcconfig"; sourceTree = "<group>"; };
+		893685EE1A2F097FBBC2EA42 /* Pods-TCAutoArchive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAutoArchive.release.xcconfig"; path = "Target Support Files/Pods-TCAutoArchive/Pods-TCAutoArchive.release.xcconfig"; sourceTree = "<group>"; };
+		DE30A53FB781190BD224A07B /* Pods_TCAutoArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCAutoArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18617A4B26E73BE2007343D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB4F10773765090A61372CA /* Pods_TCAutoArchive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18617A4526E73BE2007343D6 = {
+			isa = PBXGroup;
+			children = (
+				18617A5026E73BE2007343D6 /* TCAutoArchive */,
+				18617A4F26E73BE2007343D6 /* Products */,
+				46D5D3DE3F9194076928DCC3 /* Pods */,
+				7CA488954BA9CE648416263F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18617A4F26E73BE2007343D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18617A4E26E73BE2007343D6 /* TCAutoArchive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18617A5026E73BE2007343D6 /* TCAutoArchive */ = {
+			isa = PBXGroup;
+			children = (
+				18617A5126E73BE2007343D6 /* AppDelegate.swift */,
+				18E6AA4B26E8B19700BDF31D /* oc */,
+				18617A6126E73C43007343D6 /* base */,
+				18617A6826E73C72007343D6 /* main */,
+				18617A7226E74B4D007343D6 /* tools */,
+				18617A6026E73C23007343D6 /* useless */,
+			);
+			path = TCAutoArchive;
+			sourceTree = "<group>";
+		};
+		18617A6026E73C23007343D6 /* useless */ = {
+			isa = PBXGroup;
+			children = (
+				18617A5326E73BE6007343D6 /* Assets.xcassets */,
+				18617A5526E73BE6007343D6 /* MainMenu.xib */,
+				18617A5826E73BE6007343D6 /* Info.plist */,
+				18617A5926E73BE6007343D6 /* TCAutoArchive.entitlements */,
+			);
+			name = useless;
+			sourceTree = "<group>";
+		};
+		18617A6126E73C43007343D6 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				18617A6226E73C5B007343D6 /* TCBaseWindow.swift */,
+				18617A6326E73C5B007343D6 /* TCBaseWindow.xib */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		18617A6826E73C72007343D6 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				18E6AA5926E8B6C000BDF31D /* view */,
+				18617A6926E73CA5007343D6 /* TCMainViewCtr.swift */,
+				18617A6A26E73CA5007343D6 /* TCMainViewCtr.xib */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		18617A7226E74B4D007343D6 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				18617A7326E74B8A007343D6 /* TCExtensions.swift */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		18E6AA4B26E8B19700BDF31D /* oc */ = {
+			isa = PBXGroup;
+			children = (
+				18E6AA4C26E8B1A200BDF31D /* TCAutoArchive-Bridging-Header.h */,
+			);
+			path = oc;
+			sourceTree = "<group>";
+		};
+		18E6AA5926E8B6C000BDF31D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18E6AA5A26E8B6D700BDF31D /* TCIndicatorView.swift */,
+				18E6AA5B26E8B6D700BDF31D /* TCIndicatorView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		46D5D3DE3F9194076928DCC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B0A1E8B07746CFF904ECD9B /* Pods-TCAutoArchive.debug.xcconfig */,
+				893685EE1A2F097FBBC2EA42 /* Pods-TCAutoArchive.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7CA488954BA9CE648416263F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE30A53FB781190BD224A07B /* Pods_TCAutoArchive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18617A4D26E73BE2007343D6 /* TCAutoArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18617A5C26E73BE6007343D6 /* Build configuration list for PBXNativeTarget "TCAutoArchive" */;
+			buildPhases = (
+				D6E04480F1C102881F656A09 /* [CP] Check Pods Manifest.lock */,
+				18617A4A26E73BE2007343D6 /* Sources */,
+				18617A4B26E73BE2007343D6 /* Frameworks */,
+				18617A4C26E73BE2007343D6 /* Resources */,
+				FB72107957318481AE783F32 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCAutoArchive;
+			productName = TCAutoArchive;
+			productReference = 18617A4E26E73BE2007343D6 /* TCAutoArchive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18617A4626E73BE2007343D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					18617A4D26E73BE2007343D6 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 18617A4926E73BE2007343D6 /* Build configuration list for PBXProject "TCAutoArchive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18617A4526E73BE2007343D6;
+			productRefGroup = 18617A4F26E73BE2007343D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18617A4D26E73BE2007343D6 /* TCAutoArchive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18617A4C26E73BE2007343D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18617A5426E73BE6007343D6 /* Assets.xcassets in Resources */,
+				18617A6526E73C5B007343D6 /* TCBaseWindow.xib in Resources */,
+				18E6AA5D26E8B6D700BDF31D /* TCIndicatorView.xib in Resources */,
+				18617A6C26E73CA5007343D6 /* TCMainViewCtr.xib in Resources */,
+				18617A5726E73BE6007343D6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6E04480F1C102881F656A09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCAutoArchive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB72107957318481AE783F32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCAutoArchive/Pods-TCAutoArchive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCAutoArchive/Pods-TCAutoArchive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCAutoArchive/Pods-TCAutoArchive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18617A4A26E73BE2007343D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E6AA5C26E8B6D700BDF31D /* TCIndicatorView.swift in Sources */,
+				18617A7426E74B8A007343D6 /* TCExtensions.swift in Sources */,
+				18617A5226E73BE2007343D6 /* AppDelegate.swift in Sources */,
+				18617A6426E73C5B007343D6 /* TCBaseWindow.swift in Sources */,
+				18617A6B26E73CA5007343D6 /* TCMainViewCtr.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18617A5526E73BE6007343D6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18617A5626E73BE6007343D6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18617A5A26E73BE6007343D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18617A5B26E73BE6007343D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		18617A5D26E73BE6007343D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0A1E8B07746CFF904ECD9B /* Pods-TCAutoArchive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TCAutoArchive/TCAutoArchive.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 42V8X776Y7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TCAutoArchive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicnic.ServerJun.TCAutoArchive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TCAutoArchive/oc/TCAutoArchive-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		18617A5E26E73BE6007343D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893685EE1A2F097FBBC2EA42 /* Pods-TCAutoArchive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TCAutoArchive/TCAutoArchive.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 42V8X776Y7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TCAutoArchive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicnic.ServerJun.TCAutoArchive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TCAutoArchive/oc/TCAutoArchive-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18617A4926E73BE2007343D6 /* Build configuration list for PBXProject "TCAutoArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18617A5A26E73BE6007343D6 /* Debug */,
+				18617A5B26E73BE6007343D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18617A5C26E73BE6007343D6 /* Build configuration list for PBXNativeTarget "TCAutoArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18617A5D26E73BE6007343D6 /* Debug */,
+				18617A5E26E73BE6007343D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18617A4626E73BE2007343D6 /* Project object */;
+}
