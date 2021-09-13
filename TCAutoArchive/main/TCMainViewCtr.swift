@@ -195,7 +195,6 @@ class TCMainViewCtr: NSViewController , NSOpenSavePanelDelegate  {
                     indicat.infoLab.stringValue = "开始导出"
                 }
                 output = ipaTool.exportArchive()
-                
                 let ipa_path = ipaTool.exportIpaPath.appPath("\(ipaTool.scheme).ipa")
                 if !FileManager.default.fileExists(atPath: ipa_path) {
                     self.alertMethod(msg:"执行失败exportArchive error =\(output.readData)")

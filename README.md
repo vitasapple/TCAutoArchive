@@ -9,3 +9,10 @@
 感谢[QiuZhiFei](https://github.com/QiuZhiFei)的开源项目[
 swift-commands](https://github.com/QiuZhiFei/swift-commands)
 
+可能出现的错误：
+
+在多scheme项目里，可能你输入了项目的scheme，但是出现了如下报错
+
+![2](https://static01.imgkr.com/temp/2fa2e8f5f258477497e1e4f0487d72ee.png)
+
+这是因为你在build setting里的product Name里修改了项目名称，你只需要将其改为scheme重新打包即可

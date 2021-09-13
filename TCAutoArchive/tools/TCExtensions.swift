@@ -115,7 +115,7 @@ struct IpaTool {
             scheme = schemeName
         }
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        formatter.dateFormat = "yyyy_MM_dd_HH_mm_ss"
         exportIpaPath = packageDirectory.appPath(formatter.string(from: Date()))
     }
 }
@@ -211,7 +211,8 @@ extension IpaTool{
                         }
                     }
                     
-                case .failure( _):
+                case .failure( let error):
+                    print(error)
                     if (self.uploadTypeBlock != nil) {
                         self.uploadTypeBlock!("上传失败")
                     }
